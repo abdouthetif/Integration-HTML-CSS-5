@@ -5,7 +5,7 @@ I have done this exercice during my studies at WebForce3. This integration has b
 
 You can see the final desktop version below:
 
-![Result screenshot](images/screenshot_integration_web.png)
+![Result screenshot](images/screenshot_integration_large_screen.png)
 
 And you can see the final tablet version :
 
