@@ -1,0 +1,167 @@
+/* Header */
+header {
+    background-image: url(../images/img4.jpg);
+    background-size: cover;
+    background-position: top center;
+}
+
+.overlay-header {
+    background: transparent linear-gradient(180deg, rgba(0, 0, 0, 0.5) 0%, transparent 100%)
+}
+
+/* Navbar */
+nav a:first-of-type {
+    width: 10%;
+}
+
+.nav-link {
+    font-weight: bold;
+}
+
+.btn-success {
+    background-color: #21c87a !important;
+    border-color: #21c87a !important;
+}
+
+/* Main */
+.line-height {
+    line-height: 30px;
+}
+
+.text-success{
+    color: #3BCD86 !important;
+}
+
+/* Brands Bar */
+.width-50 {
+    width: 120px;
+}
+
+/* Main Main */
+.width-60 img{
+    width: 75px;
+}
+
+/* Create high quality products */
+.width-75 {
+    width: 95%;
+}
+
+.btn-grey {
+    background-color: #E8E9FB !important;
+    color: #7B6AFF !important;
+    padding: 0.5rem 1rem !important;
+}
+
+.font-size {
+    font-size: 2rem;
+}
+
+.h1 {
+    font-size: 2.4rem;
+}
+
+.mobile {
+    display: block;
+    margin: auto;
+    position: relative;
+    bottom: -4.5rem;
+}
+
+.purple {
+    color: #7A6EFF;
+}
+
+.bg-purple {
+    background-color: #7A6EFF;
+    color: white;
+}
+
+.bg-green {
+    background-color: #38CF88;
+    color: white;
+}
+
+.badge-success {
+    background-color: #7ED0AC !important;
+}
+
+/* Customer Rate */
+.img-style {
+    width: 40px;
+    border-radius: 50%;
+}
+
+/* Footer */
+.btn-white {
+    background-color: white;
+}
+
+.bg-foot {
+    background-image: url(../images/bg2.png);
+    background-size: cover;
+    background-position: top center;
+}
+
+.overlay-foot {
+    background: transparent linear-gradient(200deg, rgba(49, 199, 135) 0%, rgba(126, 118, 253) 100%);
+}
+
+/* Footer Navbar */
+.bg-dark {
+    background-color: #141A26;
+}
+
+.text-muted-white {
+    color: rgba(255, 255, 255, 0.7);
+}
+
+/* Medium Screen */
+@media screen and (min-width: 760px) {
+    /* Main Main*/
+    .shadow-right {
+        box-shadow: 20px 0 20px -20px rgba(0, 0, 0, 0.1);
+    }
+    
+    .border-right-gray {
+        box-shadow: inset -4px 0 0 #eeeeee;
+    }
+    
+    .icon-active {
+        border-right: 4px solid #21c87a;
+    }
+    
+    /* Create high quality products */
+    .mobile {
+        bottom: -2.5rem;
+    }
+
+    .w-25 {
+        width: 10% !important;
+    }
+}
+
+/* Large Screen */
+@media screen and (min-width: 1200px) {
+    /* Header */
+    .w-lg-75 {
+        width: 75% !important;
+    }
+
+    .nav-link {
+        color: white !important;
+    }
+
+    .mobile {
+        bottom: -4.5rem;
+    }
+
+    /* Main */
+    .pos-rel{
+        position: relative;
+        bottom: 25px;
+    }
+    .w-25 {
+        width: 25% !important;
+    }
+}
