@@ -11,6 +11,6 @@ And you can see the final tablet version :
 
 ![Result screenshot](images/screenshot_integration_medium_screen.png)
 
-And you can see the final mobile version :
+And the final mobile version :
 
 ![Result screenshot](images/screenshot_integration_small_screen.png)
